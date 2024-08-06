@@ -13,7 +13,8 @@ $ cargo build
 ## Run
 
 ```
-./psrsee
+./psrsee <process-id>
+./psrsee 1
 ```
 ```json
 {"pid":"1","cmdline":"/sbin/init","uid":["0","0","0","0"],"gid":["0","0","0","0"],"children":[{"pid":"1888735","cmdline":"/usr/bin/atop -w /var/log/atop/atop_20240806 600","uid":["0","0","0","0"],"gid":["0","0","0","0"],"children":[]}}
